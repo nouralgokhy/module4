@@ -4,7 +4,7 @@
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 for (var i=0;i<names.length;i++) {
-  var firstLetter=names[i].charAt();
+  var firstLetter=names[i].charAt(0);
   var lower=firstLetter.toLowerCase();
   if (lower=='j') {
    byeSpeaker.speak(names[i]);
